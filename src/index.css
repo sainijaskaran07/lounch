@@ -1,13 +1,152 @@
 @import "tailwindcss";
-
-html,
-body,
-#root {
+* {
+  box-sizing: border-box;
   margin: 0;
-  min-height: 100%;
-  width: 100%;
+  padding: 0;
 }
 
 body {
   background: #1f232b;
+  font-family: Arial, sans-serif;
+}
+
+.coming-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.coming-card {
+  position: relative;
+  width: 100%;
+  max-width: 560px;
+  min-height: 560px;
+  overflow: hidden;
+  border-radius: 18px;
+  background: #f5f2eb;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+}
+
+.grain {
+  position: absolute;
+  inset: 0;
+  opacity: 0.25;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.08) 0.7px, transparent 0.7px);
+  background-size: 14px 14px;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  min-height: 560px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 32px;
+}
+
+.content h1 {
+  color: #a88243;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 76px;
+  line-height: 0.95;
+  letter-spacing: -0.03em;
+  font-weight: 500;
+}
+
+.content h1 span {
+  display: block;
+}
+
+.content p {
+  margin-top: 28px;
+  color: #a88243;
+  font-size: 16px;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+}
+
+.star {
+  position: absolute;
+  z-index: 1;
+  opacity: 0.7;
+}
+
+.star .v,
+.star .h {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background: rgba(255, 255, 255, 0.95);
+  transform: translate(-50%, -50%);
+}
+
+.star .v {
+  width: 2px;
+  height: 100%;
+}
+
+.star .h {
+  width: 100%;
+  height: 2px;
+}
+
+.star-top {
+  left: 58px;
+  top: 70px;
+  width: 72px;
+  height: 72px;
+}
+
+.star-bottom {
+  right: 42px;
+  bottom: 62px;
+  width: 120px;
+  height: 120px;
+}
+
+.star-small {
+  right: 18px;
+  bottom: 128px;
+  width: 44px;
+  height: 44px;
+  opacity: 0.45;
+}
+
+@media (max-width: 640px) {
+  .coming-card {
+    min-height: 500px;
+  }
+
+  .content {
+    min-height: 500px;
+    padding: 24px;
+  }
+
+  .content h1 {
+    font-size: 58px;
+  }
+
+  .content p {
+    font-size: 13px;
+    letter-spacing: 0.28em;
+  }
+
+  .star-top {
+    left: 32px;
+    top: 48px;
+    width: 54px;
+    height: 54px;
+  }
+
+  .star-bottom {
+    right: 28px;
+    bottom: 42px;
+    width: 92px;
+    height: 92px;
+  }
 }
