@@ -4,7 +4,6 @@ export default function App() {
       <div className="coming-card">
         <div className="grain"></div>
 
-        {/* Stars */}
         <div className="star star-top">
           <span className="v"></span>
           <span className="h"></span>
@@ -20,7 +19,6 @@ export default function App() {
           <span className="h"></span>
         </div>
 
-        {/* Content */}
         <div className="content">
           <h1>
             <span>Launching</span>
