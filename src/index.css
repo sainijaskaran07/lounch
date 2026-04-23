@@ -1,7 +1,14 @@
 @import "tailwindcss";
 
-html,
-body,
-#root {
-  min-height: 100%;
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+.coming-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  background: red; /* 👈 TEMP TEST */
 }
