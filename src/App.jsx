@@ -1,5 +1,18 @@
-import LounchingSoon from "./pages/LounchingSoon.jsx";
-
 export default function App() {
-  return <LounchingSoon />;
+  return (
+    <div
+      style={{
+        minHeight: "100vh",
+        background: "red",
+        color: "white",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        fontSize: "40px",
+        fontWeight: "bold",
+      }}
+    >
+      APP IS WORKING
+    </div>
+  );
 }
