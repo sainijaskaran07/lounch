@@ -1,7 +1,5 @@
-import LaunchingSoon from "./pages/LounchingSoon.jsx";
+import LounchingSoon from "./pages/LounchingSoon.jsx";
 
-function App() {
-  return <LaunchingSoon />;
+export default function App() {
+  return <LounchingSoon />;
 }
-
-export default App;

@@ -21,10 +21,10 @@ export default function LounchingSoon() {
 
         <div className="content">
           <h1>
-            <span>COMING</span>
-            <span>SOON</span>
+            <span>Launching</span>
+            <span>Soon</span>
           </h1>
-          <p>chithiyan.com</p>
+          <p>Something beautiful is on the way</p>
         </div>
       </div>
     </div>
