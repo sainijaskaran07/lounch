@@ -1,4 +1,4 @@
-import { Instagram, Menu, MessageCircle, Plus, Search } from "lucide-react";
+import { Camera, Menu, MessageCircle, Plus, Search } from "lucide-react";
 
 export default function App() {
   return (
@@ -49,7 +49,7 @@ export default function App() {
           </button>
 
           <div className="mt-10 flex justify-center">
-            <Instagram />
+            <Camera />
           </div>
         </div>
 
