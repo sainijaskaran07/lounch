@@ -8,7 +8,7 @@ export default function App() {
 
         {/* Background */}
         <div
-          className="absolute inset-0 bg-cover bg-center"
+          className="absolute inset-0 bg-contain bg-center bg-no-repeat sm:bg-cover"
           style={{
             backgroundImage: `url(${soonBackground})`,
           }}
