@@ -25,23 +25,7 @@ export default function App() {
               <Camera size={26} />
             </a>
 
-            <div className="flex w-full flex-col gap-2 sm:flex-row">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="w-full rounded-full border border-[#69443c]/40 bg-[#f6eee7] px-4 py-2 text-sm text-[#4f332d] placeholder:text-[#8a6a61] outline-none focus:border-[#69443c] focus:ring-2 focus:ring-[#69443c]/30"
-              />
-              <button
-                type="button"
-                className="w-full rounded-full bg-[#69443c] px-5 py-2 text-sm font-semibold text-[#f6eee7] shadow-md transition hover:bg-[#593a33] sm:w-auto"
-              >
-                Notify me
-              </button>
-            </div>
-
-            <p className="text-center text-xs font-medium tracking-wide text-[#7a4f46]">
-              Coming soon
-            </p>
+            
           </div>
         </div>
 
